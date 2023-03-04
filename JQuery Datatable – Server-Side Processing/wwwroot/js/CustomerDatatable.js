@@ -15,11 +15,11 @@
         }],
         "columns": [
             { "data": "id", "name": "Id", "autoWidth": true },
-            { "data": "firstName", "name": "First Name", "autoWidth": true },
-            { "data": "latName", "name": "Lat Name", "autoWidth": true },
-            { "data": "contact", "name": "Country", "autoWidth": true },
+            { "data": "firstName", "name": "FirstName", "autoWidth": true },
+            { "data": "latName", "name": "LatName", "autoWidth": true },
+            { "data": "contact", "name": "Contact", "autoWidth": true },
             { "data": "email", "name": "Email", "autoWidth": true },
-            { "data": "dateOfBirth", "name": "Date Of Birth", "autoWidth": true },
+            { "data": "dateOfBirth", "name": "DateOfBirth", "autoWidth": true },
             {
                 "render": function (data, row) { return "<a href='#' class='btn btn-danger' onclick=DeleteCustomer('" + row.id + "'); >Delete</a>"; }
             },
